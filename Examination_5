@@ -7,5 +7,9 @@
 
 # เขียนโค้ดต่อจากนี้
 quantity = int(input())
-
+if quantity >= 5:
+ print((quantity*20)-10)
+ 
+elif quantity < 5:
+ print(quantity*20)
 
